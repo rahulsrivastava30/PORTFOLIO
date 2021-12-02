@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Rohan Mondal</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1 class="hero-heading">Variables & Datatypes
+            <br><span class="heading-inverted">in JavaScript</span></h1>
+    </header>
+
+    <div class="container blog-center">
+       <h3 class="blog-heading">Types of languages</h3> 
+       <p>There are two types of language.One is statically typed and another one is Dynamically typed.
+        In statically typed languages(ex. c,cpp,Java) we have to specify the type of the variable
+        during declaration of a variable. In Dynamically typed language we dont have to specify 
+        the type of datatype.We just declared it and use it.It automatically converts the declared 
+        variable into that type.</p>
+        <h3 class="blog-heading">Types of Variable declaration</h3>
+        <p>There are 3 variable declaration types in JavaScript.
+            1)var,2) let,3)Const</p>
+        <p>var is obsoluted variable declaration in JS. Basically it has function scope or global scope. Redeclaration is allowed in same scope.</p>    
+        <p>Variable type let having many similarities of var but the main
+            diffrence between let and var is that var is function scoped whereas let is block scoped. Redeclaration is not possible in same scope.</p>
+           <p> Const declared variable value can't be changed.It is similar as const in c/cpp only. Redeclaration and updation is not possible in same scope. It is also have block scope. In const we have to initialize value during declaration only.</p>
+        <h3 class="blog-heading">The Five Basic Types of Data</h3>
+        <p>Strings are collections of alpha-numeric characters and symbols. By using this we can store letter and words in JavaScript.
+        Boolean only have 2 values.Either true or false.It is quite useful in conditional statements and also in loops.
+        Numbers are numbers only.They include both integers and decimals. We use numbers in JS often to do mathematical operations. Undefined data type means that the variable has never been initialized. Null also similar to undefined but it has to be intentionally set. Both undefined and Null means empty or nothing.</p>    
+        <h3 class="blog-heading">Other Data Types</h3>
+        <p>The other common data types are Arrays and Objects. Arrays is just like list of elements or a container for a list of data. Array can store different datatypes even objects also.</p>
+          <p>  In the other hand Objects are like dictionary or combination of key,value pair. We can directly access the value by the key elements.
+        </p>
+        <h3 class="blog-heading">Use of typeof Operator</h3>
+        <p>To determine the datatype of a variable we often use typeof operator in JavaScript.</p>
+        <h3 class="blog-heading">Falsy and truthy Value</h3>
+        <p>0, null, undefined, '', NaN are considered as a falsy value. In boolean operations these will always give false. Except others are considered as Truthy values. So as an example {},[] will give true value. </p>
+            <div class="blog-footer"></div>    
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-header">Connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rohanmondal/">linkedIn</a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/Rohanmond">github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/RohanMo10989123">twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
